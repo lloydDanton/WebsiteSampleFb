@@ -1,0 +1,147 @@
+.fb{
+    color: #1877F2;
+    font-size: 60px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.frame{
+    height: 240px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.frame img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;   
+}
+.frame:hover{
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5); 
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+body{  
+    background: linear-gradient(#f0f2f5);
+    flex-direction: column;
+    margin: 0;
+}
+.container{
+    
+    display: flex;
+    margin-top: 150px;
+    margin-left: 25px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2cap;
+    margin-left: 150px;
+    margin-bottom: 10px;
+   
+}
+.section{
+    display: flex;
+}
+.login{
+    margin-left: 200px;
+    background-color: rgb(255, 255, 255);
+    height:370px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+}
+input{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.log{
+    margin-top: 15px;
+    background-color: #1877F2;
+    height:50px;
+    width: 358px;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.create{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(16, 182, 16);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+hr{
+    width: 350px;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color:blue;
+}
+input::placeholder{
+    opacity: 0.5;
+}
+.section{
+    flex-direction: row;
+}
+.log:hover{
+    background-color: #1169dc;
+}
+.create:hover{
+    background-color: rgb(15, 145, 15);
+}
+a:hover{
+
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.sub{
+    font-size: 30px;
+}
+.language{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.foot{
+    opacity: 0.5;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+hr{
+    width: 80%;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+}
+.face{
+    margin-top:50px;
+}
